@@ -702,7 +702,7 @@ export class NativeWindow extends Disposable {
 		if (this.environmentService.isBuilt) {
 			let installLocationUri: URI;
 			if (isMacintosh) {
-				// appRoot = /Applications/Visual Studio Code - Insiders.app/Contents/Resources/app
+				// appRoot = /Applications/MPT-IDE - Insiders.app/Contents/Resources/app
 				installLocationUri = dirname(dirname(dirname(URI.file(this.environmentService.appRoot))));
 			} else {
 				// appRoot = C:\Users\<name>\AppData\Local\Programs\Microsoft VS Code Insiders\resources\app

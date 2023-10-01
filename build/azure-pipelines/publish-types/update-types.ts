@@ -62,9 +62,9 @@ function getNewFileHeader(tag: string) {
 	const shorttag = `${major}.${minor}`;
 
 	const header = [
-		`// Type definitions for Visual Studio Code ${shorttag}`,
+		`// Type definitions for MPT-IDE ${shorttag}`,
 		`// Project: https://github.com/microsoft/vscode`,
-		`// Definitions by: Visual Studio Code Team, Microsoft <https://github.com/microsoft>`,
+		`// Definitions by: MPT-IDE Team, Microsoft <https://github.com/microsoft>`,
 		`// Definitions: https://github.com/DefinitelyTyped/DefinitelyTyped`,
 		``,
 		`/*---------------------------------------------------------------------------------------------`,
@@ -74,7 +74,7 @@ function getNewFileHeader(tag: string) {
 		` *--------------------------------------------------------------------------------------------*/`,
 		``,
 		`/**`,
-		` * Type Definition for Visual Studio Code ${shorttag} Extension API`,
+		` * Type Definition for MPT-IDE ${shorttag} Extension API`,
 		` * See https://code.visualstudio.com/api for more information`,
 		` */`
 	].join('\n');

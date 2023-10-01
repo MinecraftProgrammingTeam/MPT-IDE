@@ -1,9 +1,8 @@
 {
-  "name": "code-oss-dev",
-  "version": "1.84.0",
-  "distro": "7df09ac7212a2c85067c0e2ef8c1ec89686483d2",
+  "name": "MPT-IDE",
+  "version": "1.14.51.4",
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "MinecraftProgrammingTeam"
   },
   "license": "MIT",
   "main": "./out/main",
@@ -223,10 +222,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/vscode.git"
+    "url": "https://github.com/MinecraftProgrammingTeam/MPT-IDE.git"
   },
   "bugs": {
-    "url": "https://github.com/microsoft/vscode/issues"
+    "url": "https://github.com/MinecraftProgrammingTeam/MPT-IDE/issues"
   },
   "optionalDependencies": {
     "windows-foreground-love": "0.5.0"

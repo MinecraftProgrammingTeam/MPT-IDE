@@ -316,13 +316,13 @@ steps:
         displayName: Generate SBOM (client)
         inputs:
           BuildDropPath: $(agent.builddirectory)/VSCode-win32-$(VSCODE_ARCH)
-          PackageName: Visual Studio Code
+          PackageName: MPT-IDE
 
       - task: AzureArtifacts.manifest-generator-task.manifest-generator-task.ManifestGeneratorTask@0
         displayName: Generate SBOM (server)
         inputs:
           BuildDropPath: $(agent.builddirectory)/vscode-server-win32-$(VSCODE_ARCH)
-          PackageName: Visual Studio Code Server
+          PackageName: MPT-IDE Server
         condition: and(succeeded(), ne(variables['VSCODE_ARCH'], 'arm64'))
 
       - publish: $(agent.builddirectory)/VSCode-win32-$(VSCODE_ARCH)/_manifest
